@@ -1,0 +1,155 @@
+Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+============== RESTART: C:/Users/HP/OneDrive/Task1/Task 2/task.py ==============
+   OrderID     Product     Category  ...  Country            OrderDate TotalSales
+0        1  Headphones  Electronics  ...    India  2022-01-01 00:00:00    3825.88
+1        2      Camera  Electronics  ...      USA  2022-01-01 01:00:00    3679.44
+2        3      Tablet  Electronics  ...    India  2022-01-01 02:00:00    1137.65
+3        4      Camera  Accessories  ...  Germany  2022-01-01 03:00:00    1963.12
+4        5      Camera  Electronics  ...       UK  2022-01-01 04:00:00    7324.64
+
+[5 rows x 8 columns]
+<class 'pandas.DataFrame'>
+RangeIndex: 50000 entries, 0 to 49999
+Data columns (total 8 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   OrderID     50000 non-null  int64  
+ 1   Product     50000 non-null  str    
+ 2   Category    50000 non-null  str    
+ 3   Price       50000 non-null  float64
+ 4   Quantity    50000 non-null  int64  
+ 5   Country     50000 non-null  str    
+ 6   OrderDate   50000 non-null  str    
+ 7   TotalSales  50000 non-null  float64
+dtypes: float64(2), int64(2), str(4)
+memory usage: 3.1 MB
+None
+            OrderID         Price      Quantity    TotalSales
+count  50000.000000  50000.000000  50000.000000  50000.000000
+mean   25000.500000   1049.694166      2.500780   2623.043072
+std    14433.901067    548.405122      1.120564   1907.968273
+min        1.000000    100.050000      1.000000    100.180000
+25%    12500.750000    571.297500      1.000000   1104.702500
+50%    25000.500000   1053.965000      2.000000   2028.300000
+75%    37500.250000   1526.607500      4.000000   3782.835000
+max    50000.000000   1999.980000      4.000000   7999.800000
+OrderID       0
+Product       0
+Category      0
+Price         0
+Quantity      0
+Country       0
+OrderDate     0
+TotalSales    0
+dtype: int64
+Product
+Phone         26525411.22
+Headphones    26464443.94
+Camera        26251990.19
+Laptop        26230588.06
+Tablet        25679720.18
+Name: TotalSales, dtype: float64
+
+================================================================== RESTART: C:/Users/HP/OneDrive/Task1/Task 2/task.py ==================================================================
+   OrderID     Product     Category  ...  Country            OrderDate TotalSales
+0        1  Headphones  Electronics  ...    India  2022-01-01 00:00:00    3825.88
+1        2      Camera  Electronics  ...      USA  2022-01-01 01:00:00    3679.44
+2        3      Tablet  Electronics  ...    India  2022-01-01 02:00:00    1137.65
+3        4      Camera  Accessories  ...  Germany  2022-01-01 03:00:00    1963.12
+4        5      Camera  Electronics  ...       UK  2022-01-01 04:00:00    7324.64
+
+[5 rows x 8 columns]
+<class 'pandas.DataFrame'>
+RangeIndex: 50000 entries, 0 to 49999
+Data columns (total 8 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   OrderID     50000 non-null  int64  
+ 1   Product     50000 non-null  str    
+ 2   Category    50000 non-null  str    
+ 3   Price       50000 non-null  float64
+ 4   Quantity    50000 non-null  int64  
+ 5   Country     50000 non-null  str    
+ 6   OrderDate   50000 non-null  str    
+ 7   TotalSales  50000 non-null  float64
+dtypes: float64(2), int64(2), str(4)
+memory usage: 3.1 MB
+None
+            OrderID         Price      Quantity    TotalSales
+count  50000.000000  50000.000000  50000.000000  50000.000000
+mean   25000.500000   1049.694166      2.500780   2623.043072
+std    14433.901067    548.405122      1.120564   1907.968273
+min        1.000000    100.050000      1.000000    100.180000
+25%    12500.750000    571.297500      1.000000   1104.702500
+50%    25000.500000   1053.965000      2.000000   2028.300000
+75%    37500.250000   1526.607500      4.000000   3782.835000
+max    50000.000000   1999.980000      4.000000   7999.800000
+OrderID       0
+Product       0
+Category      0
+Price         0
+Quantity      0
+Country       0
+OrderDate     0
+TotalSales    0
+dtype: int64
+Product
+Phone         26525411.22
+Headphones    26464443.94
+Camera        26251990.19
+Laptop        26230588.06
+Tablet        25679720.18
+Name: TotalSales, dtype: float64
+
+================================================================= RESTART: C:/Users/HP/OneDrive/Task1/Task 2/task code =================================================================
+   OrderID     Product     Category  ...  Country            OrderDate TotalSales
+0        1  Headphones  Electronics  ...    India  2022-01-01 00:00:00    3825.88
+1        2      Camera  Electronics  ...      USA  2022-01-01 01:00:00    3679.44
+2        3      Tablet  Electronics  ...    India  2022-01-01 02:00:00    1137.65
+3        4      Camera  Accessories  ...  Germany  2022-01-01 03:00:00    1963.12
+4        5      Camera  Electronics  ...       UK  2022-01-01 04:00:00    7324.64
+
+[5 rows x 8 columns]
+<class 'pandas.DataFrame'>
+RangeIndex: 50000 entries, 0 to 49999
+Data columns (total 8 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   OrderID     50000 non-null  int64  
+ 1   Product     50000 non-null  str    
+ 2   Category    50000 non-null  str    
+ 3   Price       50000 non-null  float64
+ 4   Quantity    50000 non-null  int64  
+ 5   Country     50000 non-null  str    
+ 6   OrderDate   50000 non-null  str    
+ 7   TotalSales  50000 non-null  float64
+dtypes: float64(2), int64(2), str(4)
+memory usage: 3.1 MB
+None
+            OrderID         Price      Quantity    TotalSales
+count  50000.000000  50000.000000  50000.000000  50000.000000
+mean   25000.500000   1049.694166      2.500780   2623.043072
+std    14433.901067    548.405122      1.120564   1907.968273
+min        1.000000    100.050000      1.000000    100.180000
+25%    12500.750000    571.297500      1.000000   1104.702500
+50%    25000.500000   1053.965000      2.000000   2028.300000
+75%    37500.250000   1526.607500      4.000000   3782.835000
+max    50000.000000   1999.980000      4.000000   7999.800000
+OrderID       0
+Product       0
+Category      0
+Price         0
+Quantity      0
+Country       0
+OrderDate     0
+TotalSales    0
+dtype: int64
+Product
+Phone         26525411.22
+Headphones    26464443.94
+Camera        26251990.19
+Laptop        26230588.06
+Tablet        25679720.18
+Name: TotalSales, dtype: float64
